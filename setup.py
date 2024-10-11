@@ -1,5 +1,6 @@
 import glob
 import os
+os.environ['SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL'] = 'True'
 
 import torch
 from setuptools import find_packages, setup
